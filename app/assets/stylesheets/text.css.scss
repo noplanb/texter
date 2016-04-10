@@ -1,0 +1,42 @@
+// Place all the styles related to the Text controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  font-family: Sans-Serif;
+}
+
+$phoneWidth: 210px;
+$phoneHeight: 320px;
+$textPadding: 10px;
+$textHeight: $phoneHeight/2 - 2*$textPadding;
+$keyHeight: $phoneHeight - $textHeight - 2*$textPadding - 2;
+
+.Phone{
+  width: $phoneWidth;
+  height: $phoneHeight;
+  border: 1px solid blue;
+}
+
+.TextBox{
+  height: $textHeight;
+  padding: $textPadding;
+  border-bottom: 1px solid blue;
+  white-space: pre-wrap;
+  overflow-y: hidden;
+}
+
+.KeyBoard{
+  height: $keyHeight;
+  background: lightgrey;
+  text-align: center;
+  display: table-cell;
+  width: $phoneWidth;
+  vertical-align: middle;
+}
+
+.Cursor{
+  border-right: 2px solid blue;
+  padding-right: 2px;
+  margin-right: 2px;
+  float: none;
+}

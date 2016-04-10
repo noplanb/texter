@@ -1,0 +1,6 @@
+- Find position of cursor
+- If position is on the last line
+- Shrink text until it is no longer on the last line
+
+
+
