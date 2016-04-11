@@ -5,6 +5,10 @@ body{
   font-family: Sans-Serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 $phoneWidth: 210px;
 $phoneHeight: 320px;
 $textPadding: 10px;
@@ -15,6 +19,8 @@ $keyHeight: $phoneHeight - $textHeight - 2*$textPadding - 2;
   width: $phoneWidth;
   height: $phoneHeight;
   border: 1px solid blue;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .TextBox{
