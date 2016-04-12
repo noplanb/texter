@@ -1,0 +1,16 @@
+- Create a docker file for the project. Copied from FriendFinder.
+- Copy Dockerrun.aws.json
+- start.sh script
+  - rails s -b 0.0.0.0 -p 80
+- docker build -t zazo-texter
+- docker images
+- docker run -p 3000:80 zazo-texter
+  - calls the start script
+
+- Create new app on elastic beanstalk
+- Dont use single instance just limit instances
+
+- eb init
+- eb list
+- eb deploy
+
